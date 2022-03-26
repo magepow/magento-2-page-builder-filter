@@ -352,7 +352,7 @@ class Template
     private function getMediaQuery(string $view) : ?string
     {
         $breakpoints = $this->viewConfig->getViewConfig()->getVarValue(
-            'Magepow_PageBuilderFilter',
+            'Magento_PageBuilder',
             'breakpoints/' . $view . '/conditions'
         );
         if ($breakpoints && count($breakpoints) > 0) {
