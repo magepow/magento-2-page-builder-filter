@@ -16,16 +16,16 @@ When you install theme create from Magento 2.4.3 or latest use Magento 2 Pagebui
 
 ### Genneral information
 #### Not install Page Builder Filter
-![before-install-img](https://github.com/magepow/magento-2-page-builder-filter/blob/main/media/before-install.png)
+![before-install-img](https://github.com/magepow/magento-2-page-builder-filter/blob/master/media/before-install.png)
 
 #### ✓ After install Page Builder Filter
-![after-install-img](https://github.com/magepow/magento-2-page-builder-filter/blob/main/media/after-install.png)
+![after-install-img](https://github.com/magepow/magento-2-page-builder-filter/blob/master/media/after-install.png)
 
 Page Builder Filter extension for Magento 2 allows render shortcode in static block or cms page create by Magento 2.4.3 or latest in old version Magento less 2.4.3 not avaible Magento 2 Pagebuiler.
 
 ### Highlight Features
 
-![configuration-img](https://github.com/magepow/magento-2-page-builder-filter/blob/main/media/configuration.png)
+![configuration-img](https://github.com/magepow/magento-2-page-builder-filter/blob/master/media/configuration.png)
 
 1. Easy to Enable/Disable the extension in the Admin Panel
 
