@@ -3,7 +3,7 @@
 When you install theme create from Magento 2.4.3 or latest use Magento 2 Pagebuiler or downupgrde version to version less Magento 2.4.3 the shortcode in static block or cms page create by Magento 2 Pagebuiler not render correct in frontend Magento 2 old version. The Magento 2 Page Builder Filter will help render shortcode from Magento 2 Pagebuiler correct as in Magento 2.4.3 or latest not require upgrade to new version or install Magento 2 Pagebuiler in old version.
 
 
-[**Page Builder Filter extension by Magepow**](https://magepow.com/magento-2-extensions.html) is the perfect solution render shortcode of Magento 2.4.3 or latest in old versoin Magento 2 for your website:
+[**Page Builder Filter extension by Magepow**](https://magepow.com/magento-2-extensions.html) is the perfect solution render shortcode of Magento 2.4.3 or latest in old version Magento 2 for your website:
 
 
 ### See more detailed introduction, documment, demo frontend, demo backend: 
