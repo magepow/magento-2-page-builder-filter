@@ -116,14 +116,14 @@
             <argument name="instanceName" xsi:type="string">Magepow\PageBuilderFilter\Model\Dom\HtmlDocument</argument>
         </arguments>
     </virtualType>
-    <type name="Magepow\PageBuilderFilter\Model\Validator\IframeSrcAttributeValidator">
+<!--     <type name="Magepow\PageBuilderFilter\Model\Validator\IframeSrcAttributeValidator">
         <arguments>
             <argument name="allowedHosts" xsi:type="array">
                 <item name="youtube" xsi:type="string">youtube.com</item>
                 <item name="vimeo" xsi:type="string">vimeo.com</item>
             </argument>
         </arguments>
-    </type>
+    </type> -->
     <virtualType name="DefaultWYSIWYGValidator">
         <arguments>
             <argument name="allowedTags" xsi:type="array">
