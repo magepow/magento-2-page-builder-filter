@@ -7,6 +7,7 @@ declare(strict_types=1);
 
 namespace Magepow\PageBuilderFilter\Plugin\Filter;
 
+use Magepow\PageBuilderFilter\Helper\Data;
 use Magepow\PageBuilderFilter\Model\Filter\Template as TemplateFilter;
 use Magento\Framework\Filter\Template as FrameworkTemplateFilter;
 
@@ -20,6 +21,11 @@ class TemplatePlugin
     const HTML_CONTENT_TYPE_PATTERN = '/data-content-type="html"/si';
 
     /**
+     * @var Data
+     */
+    private $helper;
+
+    /**
      * @var TemplateFilter
      */
     private $templateFilter;
@@ -28,9 +34,11 @@ class TemplatePlugin
      * @param TemplateFilter $templateFilter
      */
     public function __construct(
-        TemplateFilter $templateFilter
+        TemplateFilter $templateFilter,
+        Data $helper
     ) {
         $this->templateFilter = $templateFilter;
+        $this->helper         = $helper;
     }
 
     /**
@@ -44,6 +52,7 @@ class TemplatePlugin
      */
     public function afterFilter(FrameworkTemplateFilter $subject, $result)
     {
+        if( !$this->helper->getConfigModule('general/enabled') ) return $result;
         return $this->templateFilter->filter((string) $result);
     }
 }
