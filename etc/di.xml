@@ -6,67 +6,6 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <type name="Magepow\PageBuilderFilter\Model\WidgetInitializerConfig">
-        <arguments>
-            <argument name="config" xsi:type="array">
-                <item name="slider" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/slider/appearance/default/widget</item>
-                        <!--optional if you want load widget per appearance-->
-                        <item name="appearance" xsi:type="string">default</item>
-                    </item>
-                </item>
-                <item name="map" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/map/appearance/default/widget</item>
-                    </item>
-                </item>
-                <item name="row" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/row/appearance/default/widget</item>
-                    </item>
-                </item>
-                <item name="tabs" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/tabs/appearance/default/widget</item>
-                    </item>
-                </item>
-                <item name="slide" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <!--required argument-->
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/slide/appearance/default/widget</item>
-                        <!--optional if you need provide some config for your widget-->
-                        <item name="config" xsi:type="array">
-                            <item name="buttonSelector" xsi:type="string">.pagebuilder-slide-button</item>
-                            <item name="showOverlay" xsi:type="string">hover</item>
-                            <item name="dataRole" xsi:type="string">slide</item>
-                        </item>
-                    </item>
-                </item>
-                <item name="banner" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/banner/appearance/default/widget</item>
-                        <item name="config" xsi:type="array">
-                            <item name="buttonSelector" xsi:type="string">.pagebuilder-banner-button</item>
-                            <item name="showOverlay" xsi:type="string">hover</item>
-                            <item name="dataRole" xsi:type="string">banner</item>
-                        </item>
-                    </item>
-                </item>
-                <item name="buttons" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/buttons/appearance/inline/widget</item>
-                    </item>
-                </item>
-                <item name="products" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">Magepow_PageBuilderFilter/js/content-type/products/appearance/carousel/widget</item>
-                        <item name="appearance" xsi:type="string">carousel</item>
-                    </item>
-                </item>
-            </argument>
-        </arguments>
-    </type>
     <type name="Magento\Catalog\Helper\Output">
         <arguments>
             <argument name="directivePatterns" xsi:type="array">
@@ -194,11 +133,6 @@
                 </item>
                 <item name="style" xsi:type="array">
                     <item name="data-style-id" xsi:type="string">data-style-id</item>
-                </item>
-            </argument>
-            <argument name="attributeValidators" xsi:type="array">
-                <item name="src" xsi:type="array">
-                    <item name="iframe-src" xsi:type="object">Magepow\PageBuilderFilter\Model\Validator\IframeSrcAttributeValidator</item>
                 </item>
             </argument>
             <argument name="tagValidators" xsi:type="array">
