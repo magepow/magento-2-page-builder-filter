@@ -135,11 +135,11 @@
                     <item name="data-style-id" xsi:type="string">data-style-id</item>
                 </item>
             </argument>
-            <argument name="tagValidators" xsi:type="array">
+            <!-- <argument name="tagValidators" xsi:type="array">
                 <item name="div" xsi:type="array">
                     <item name="html" xsi:type="object">Magepow\PageBuilderFilter\Model\Validator\InnerHtmlValidator</item>
                 </item>
-            </argument>
+            </argument> -->
         </arguments>
     </virtualType>
 </config>
