@@ -7,7 +7,7 @@
         <section id="magepow_pagebuilderfilter" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <label><![CDATA[Page Builder Filter]]></label>
             <tab>magepow</tab>
-            <resource>Magepow_pagebuilderfilter::config</resource>
+            <resource>Magepow_PageBuilderFilter::config</resource>
             <group id="general" translate="label" type="text" sortOrder="1" showInDefault="10" showInWebsite="1" showInStore="1">
                 <label><![CDATA[General]]></label>
                 <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
