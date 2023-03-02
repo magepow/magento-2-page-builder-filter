@@ -1,3 +1,5 @@
+[<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
+
 ## Magento 2 Page Builder Filter extension (Magepow_PageBuilderFilter) 
 
 When you install a theme created from Magento 2.4.3 or latest use Magento 2 Pagebuiler or downgrade the version to less Magento 2.4.3 the shortcode in static block or cms page created by Magento 2 Pagebuiler not render correct in frontend Magento 2 old version. The Magento 2 Page Builder Filter will help render shortcode from Magento 2 Pagebuiler correct as in Magento 2.4.3 or latest not require an upgrade to a new version or install Magento 2 Pagebuiler in the old version.
